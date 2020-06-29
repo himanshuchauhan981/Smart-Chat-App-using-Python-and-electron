@@ -8,15 +8,15 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot --prod"
+    "postinstall": "ng build --aot --target=production"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.14",
     "@angular/cdk": "~8.2.3",
-    "@angular/cli": "^10.0.0",
     "@angular/common": "~8.2.14",
     "@angular/compiler": "~8.2.14",
+    "@angular/cli": "^10.0.0",
     "@angular/compiler-cli": "^8.2.14",
     "@angular/core": "~8.2.14",
     "@angular/forms": "~8.2.14",
