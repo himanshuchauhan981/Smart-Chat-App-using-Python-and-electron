@@ -23,7 +23,7 @@ export class ChatboxComponent implements OnInit {
 
 	timeout = undefined
 
-	@ViewChild('clearInput',{static: false}) clearInput: ElementRef
+	@ViewChild('clearInput') clearInput: ElementRef
 
 	ngOnInit() {
 		this.userService.getUsername().subscribe((res:any) =>{
